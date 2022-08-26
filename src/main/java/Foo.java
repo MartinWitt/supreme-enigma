@@ -2,6 +2,7 @@ public class Foo {
   public int bar() {
     String[] s = null;
     s.toString();
-    return 3;
+    int a = 3;
+    return a;
   }
 }
