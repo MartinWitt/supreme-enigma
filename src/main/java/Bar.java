@@ -6,7 +6,7 @@ public class Bar {
     return a;
   }
   
-  private int getNumber() {
+  private static int getNumber() {
     return 3;
   }
 }
