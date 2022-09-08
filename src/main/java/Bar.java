@@ -2,12 +2,11 @@ public class Bar {
   public int bar() {
     String[] s = null;
     s.toString();
-    System.out.println("aaaa".toString());
-    int a = getNumber();
-    return a;
+    System.out.println("aaaa");
+    return getNumber();
   }
   
-  private int getNumber() {
+  private static int getNumber() {
     return 3;
   }
 }
